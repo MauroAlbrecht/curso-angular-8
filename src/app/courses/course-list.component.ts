@@ -14,8 +14,8 @@ export class CourseListComponent implements OnInit {
     this.courses = [
       {
         id: 1,
-        name: 'JAVA',
-        imageUrl: '',
+        name: 'Angular Forms',
+        imageUrl: '/assets/images/forms.png',
         price: 20.30,
         code: '102',
         duration: 8,
@@ -25,7 +25,7 @@ export class CourseListComponent implements OnInit {
       {
         id: 2,
         name: 'Thymeleaf',
-        imageUrl: '',
+        imageUrl: '/assets/images/thymeleaf.png',
         price: 20.30,
         code: 'J8a8sj',
         duration: 4,
