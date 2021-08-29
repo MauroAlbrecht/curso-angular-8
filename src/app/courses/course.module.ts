@@ -5,7 +5,7 @@ import {RouterModule} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {ReplacePipe} from '../pipe/replace.pipe';
-import {StarComponent} from '../star/star.component';
+import {StarModule} from '../shared/component/star/star.module';
 
 /*import {StarModule} from '../shared/component/star/star.module';
 import {AppPipeModule} from '../shared/pipe/app-pipe.module';*/
@@ -14,13 +14,13 @@ import {AppPipeModule} from '../shared/pipe/app-pipe.module';*/
   declarations: [
     CourseListComponent,
     CourseInfoComponent,
-    ReplacePipe,
-    StarComponent
+    ReplacePipe
   ],
   imports: [
     CommonModule,
     FormsModule,
     CommonModule,
+    StarModule,
     /*  StarModule,
       AppPipeModule,*/
     RouterModule.forChild([
